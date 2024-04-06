@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int a,b,c;
+	scanf("%d %d %d",&a,&b,&c);
+	int n=a+c;
+	if(n>=b)
+	{
+	    printf("YES");
+	}
+	else
+	{
+	    printf("NO");
+	}
+
+}
+
