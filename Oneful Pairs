@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+    int z=a+b+(a*b);
+    (z==111)?printf("YES"):printf("NO");
+
+}
