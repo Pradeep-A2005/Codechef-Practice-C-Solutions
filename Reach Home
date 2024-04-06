@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int t,x,y;
+    scanf("%d",&t);
+    int a[t];
+    for(int i=0;i<t;i++){
+    scanf("%d %d",&x,&y);
+    if(x*5>=y)
+        a[i]=1;
+    else
+        a[i]=0;
+    }
+    for(int i=0;i<t;i++)
+    {
+        if(a[i]==1)
+            printf("YES\n");
+        else
+            printf("NO\n");
+    }
+}
