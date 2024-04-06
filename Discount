@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+	int t,x;
+	int s=100;
+	scanf("%d",&t);
+	for(int i=0;i<t;i++)
+	{
+	    scanf("%d",&x);
+	    printf("%d\n",s-x);
+	}
+
+}
+
