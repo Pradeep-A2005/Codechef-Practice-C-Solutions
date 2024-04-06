@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int t,num,rem;
+    scanf("%d",&t);
+    for(int i=0;i<t;i++)
+    {
+        scanf("%d",&num);
+        
+        while(num!=0)
+        {
+            rem=num%10;
+            printf("%d\n",rem);
+            break;
+        }
+    }
+}
