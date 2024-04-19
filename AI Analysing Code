@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(void) {
+	int c;
+	scanf("%d",&c);
+    (c<=1000)?printf("YES"):printf("NO");
+}
+
