@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(void) {
+	int t,n,m,k;
+	scanf("%d",&t);
+	for(int i=0;i<t;i++)
+	{
+	    scanf("%d%d%d",&n,&m,&k);
+	    (m>=(n+k))?printf("yes\n"):printf("no\n");
+	}
+}
+
