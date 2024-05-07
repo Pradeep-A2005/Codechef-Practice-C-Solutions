@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(void) {
+	int t;
+	scanf("%d",&t);
+	int IQ=t+7;
+	(IQ>170)?printf("YES\n"):printf("NO\n");
+
+}
+
