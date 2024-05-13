@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(void) {
+	int h,w;
+	scanf("%d%d",&h,&w);
+	(h>=60 && w<=130)?printf("YES\n"):printf("NO\n");
+
+}
+
