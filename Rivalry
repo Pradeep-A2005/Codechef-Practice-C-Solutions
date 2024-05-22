@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(void) {
+	int r1,r2,d1,d2;
+	scanf("%d%d%d%d",&r1,&r2,&d1,&d2);
+	int n1=r1+d1;
+	int n2=r2+d2;
+	if(n1>n2)
+	{
+	    printf("Dominater");
+	}
+	else
+	{
+	    printf("Everule");
+	}
+}
+
