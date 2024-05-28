@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(void) {
+	int t;
+	scanf("%d",&t);
+	int s;
+	for(int i=0;i<t;i++)
+	{
+	    scanf("%d",&s);
+	    int num=10-s;
+	    (num>=3)?printf("yes\n"):printf("no\n");
+	}
+
+}
+
