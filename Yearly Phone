@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(void) {
+	int year;
+	scanf("%d",&year);
+	int d1=year%10;
+	int d=year/10;
+	int d2=d%10;
+	printf("K%d%d",d2,d1);
+
+}
+
