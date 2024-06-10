@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(void) {
+	int t;
+	scanf("%d",&t);
+	int a,b;
+	for(int i=0;i<t;i++)
+	{
+	    scanf("%d%d",&a,&b);
+	    int num=b*100/a;
+	    (num>=50)?printf("yes\n"):printf("no\n");
+	}
+
+}
+
