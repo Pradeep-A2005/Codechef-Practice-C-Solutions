@@ -1,0 +1,20 @@
+// Update the code below to solve the problem
+#include <stdio.h>
+#include<math.h>
+int main() 
+{
+	int t;
+    scanf("%d",&t);
+	
+	while(t--)
+	{
+	    int t1, t2, r1, r2;
+	    scanf("%d%d%d%d", &t1,&t2,&r1,&r2);
+	    float a = (((float)t1*t1)/(r1*r1*r1));
+	    float b = (((float)t2*t2)/(r2*r2*r2));
+	    if(a==b)
+	    printf("Yes\n");
+	    else
+	    printf("No\n");
+	}
+}	
