@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main() 
+{
+  int t;
+  scanf("%d", &t); 
+  while(t--)
+  {
+       int n;
+       scanf("%d", &n);
+       int divisors[n];
+       int i = 1;
+       int j = 0;
+       while (i <= n)
+        {  
+            if(n%i==0)
+            {
+                divisors[j] = i;
+                j++;
+            }
+            
+            i++;
+        }
+        for(int i = 0; i < j; i++)
+        {
+          printf("%d ",divisors[i]);   
+        }
+            printf("\n");
+  }
+
+}
