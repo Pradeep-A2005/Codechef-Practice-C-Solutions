@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+    for(int k=0;k<t;k++){
+        int a,b;
+        scanf("%d %d",&a,&b);
+        if(a>b){
+            while(a!=b && b<=a){
+                b*=2;
+            }
+            if(a==b){
+                printf("Yes\n");
+            }
+            else{
+                printf("No\n");
+            }
+        }
+        else{
+            while(a!=b && a<=b){
+                a*=2;
+            }
+            if(a==b){
+                printf("Yes\n");
+            }
+            else{
+                printf("No\n");
+            }
+        }
+    }
+}
