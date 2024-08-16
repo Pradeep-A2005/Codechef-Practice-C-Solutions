@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include <string.h>
+int main(){
+    char s[100];
+    char target;
+    int index=0;
+    scanf("%s %c",&s,&target);
+    for(int i=0;i<strlen(s);i++){
+        if(s[i]==target){
+            printf("%d",i);
+            index=1;
+            break;
+        }
+    }
+    if(index==0)
+    printf("-1");
+}
